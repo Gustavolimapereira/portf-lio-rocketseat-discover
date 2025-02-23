@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend - Gustavo Lima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="backendPage">
+    <div id="Projetos">
+        <div id="layoutProjetos">
+            <ul>
+                <li>
+                  <a href="https://github.com/gustavolimapereira" target="_blank">FastFeet API</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="descricao">
+        <h2>FastFeet API – Sistema de Controle de Encomendas</h2>
+    
+        <p>Desenvolvi a FastFeet API para gerenciar encomendas em uma transportadora fictícia, permitindo que administradores e entregadores realizem operações de forma segura e eficiente. A aplicação oferece funcionalidades como login com CPF e senha, gerenciamento de entregadores, encomendas e destinatários, além de rastreamento e notificações automáticas de status das encomendas.</p>
+    
+        <h3>Funcionalidades Principais</h3>
+        <ul>
+            <li>Autenticação de usuários com CPF e senha.</li>
+            <li>CRUD de entregadores, encomendas e destinatários.</li>
+            <li>Marcação de status das encomendas (aguardando, retirada, entregue, devolvida).</li>
+            <li>Localização de encomendas próximas ao entregador.</li>
+            <li>Notificações automáticas para destinatários.</li>
+        </ul>
+    
+        <h3>Regras de Negócio</h3>
+        <ul>
+            <li>Apenas administradores podem gerenciar encomendas, entregadores e destinatários.</li>
+            <li>Entrega de encomendas exige envio de foto.</li>
+            <li>Restrição de acesso: entregadores não podem visualizar encomendas de outros.</li>
+        </ul>
+    
+        <h3>Práticas e Arquitetura</h3>
+        <p>Utilizei DDD, Clean Architecture, autenticação e autorização (RBAC), e implementei testes unitários e E2E para garantir a qualidade do código.</p>
+    
+        <h3>Conclusão</h3>
+        <p>Esse projeto consolidou meus conhecimentos em design de APIs, segurança, e boas práticas de arquitetura, oferecendo uma solução escalável e eficiente para o gerenciamento de encomendas.</p>
+    </div>
+    
+    
+        
+        <script src="./script.js"></script>
+</body>

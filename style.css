@@ -41,6 +41,13 @@
     padding: 0 24px;
 }
 
+#container-backend {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px 50px 0px;
+  padding: 0 24px;
+}
+
 #profile {
     text-align: center;
     padding: 24px;
@@ -167,7 +174,7 @@ footer {
     }
   }
 
-/* animation */
+/* animação */
 @keyframes slide-in {
     from {
       left: 0;
@@ -186,3 +193,28 @@ footer {
     }
   }
 
+
+  /* backend */
+  #backendPage {
+    width: 100%;
+    margin: 56px 50px 0px;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    gap: 20px;
+  }
+  
+  #projetos, #descricao {
+    height: 100vh; /* Garantir que a altura ocupe toda a tela */
+    width: 100%; /* Deixa as divs ocuparem toda a largura disponível */
+  }
+  
+
+
+  #layoutProjetos {
+    max-width: 588px;
+  }
+  
+  #descricao {
+    
+  }
