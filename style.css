@@ -133,7 +133,7 @@ ul li a {
 
 ul li a:hover {
     background: var(--surface-color-hover);
-    border: 1.5px solid var(--text-color)
+    border: 1.5px solid var(--text-color);
 }
 
 #social-links {
@@ -212,6 +212,10 @@ footer {
 
 
   #layoutProjetos {
+    max-width: 588px;
+  }
+
+  #layoutDescricao {
     max-width: 588px;
   }
   
