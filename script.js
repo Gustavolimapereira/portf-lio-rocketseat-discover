@@ -54,7 +54,7 @@ applySavedTheme();
 
 function downloadCv() {
     const link = document.createElement("a");
-    link.href = "https://gustatech.com.br/cv/Gustavo Lima.pdf"; // Atualize com o nome correto do arquivo
+    link.href = "https://gustatech.com.br/cv/gustavo-lima.pdf"; // Atualize com o nome correto do arquivo
     link.download = "Gustavo Lima.pdf"; // Nome do arquivo ao salvar
     document.body.appendChild(link);
     link.click();
