@@ -218,3 +218,7 @@ footer {
   #descricao {
     
   }
+
+  #download-cv {
+    cursor: pointer;
+}
