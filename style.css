@@ -24,6 +24,11 @@
     --switch-bg-url: url(./assets/sun.svg);
   }
 
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
   body {
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
@@ -133,7 +138,7 @@ ul li a {
 
 ul li a:hover {
     background: var(--surface-color-hover);
-    border: 1.5px solid var(--text-color)
+    border: 1.5px solid var(--text-color);
 }
 
 #social-links {
@@ -214,11 +219,21 @@ footer {
   #layoutProjetos {
     max-width: 588px;
   }
+
+  #layoutDescricao {
+    max-width: 588px;
+  }
   
   #descricao {
+<<<<<<< HEAD
     
   }
 
   #download-cv {
     cursor: pointer;
 }
+=======
+    max-width: 100%;
+    overflow-x: hidden
+  }
+>>>>>>> 4f8df0c55cfaa6bf57c70045df4d79a616aba8d7
