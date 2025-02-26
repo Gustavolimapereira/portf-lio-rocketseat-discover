@@ -52,6 +52,7 @@ function applySavedTheme() {
 applySavedTheme();
 
 
+function downloadCv() {
 document.getElementById("download-cv").addEventListener("click", function () {
     const link = document.createElement("a");
     link.href = "https://gustatech.com.br/cv/Gustavo Lima.pdf"; // Atualize com o nome real do arquivo
@@ -59,4 +60,4 @@ document.getElementById("download-cv").addEventListener("click", function () {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-});
+})};
