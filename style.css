@@ -225,15 +225,12 @@ footer {
   }
   
   #descricao {
-<<<<<<< HEAD
+    max-width: 100%;
+    overflow-x: hidden
     
   }
 
   #download-cv {
     cursor: pointer;
 }
-=======
-    max-width: 100%;
-    overflow-x: hidden
-  }
->>>>>>> 4f8df0c55cfaa6bf57c70045df4d79a616aba8d7
+
